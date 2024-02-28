@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile using HTML, CSS and JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<nav id="navbar">
+    <ul>
+        <li><a href="javascript:void(0);" onclick="toggleNav()">&#9776;</a></li>
+        <li><a href="#about"><b>About Me</b></a></li>
+        <li><a href="#career"><b>Career</b></a></li>
+        <li><a href="#education"><b>Education</b></a></li>
+        <li><a href="#projects"><b>Projects</b></a></li>
+        <li><a href="#hobbies"><b>Hobbies</b></a></li>
+        <li><a href="#contact"><b>Contact</b></a></li>
+        
+    </ul>
+</nav>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="https://www.instagram.com/apurbbaaaaa/" target="_blank"><i class="fab fa-instagram"></i> @apurbbaaaaa</a>
+    <a href="https://www.instagram.com/8848pixels/" target="_blank"><i class="fab fa-instagram"></i> @8848pixels</a>
+    <a href="https://wa.me/+91 72759 38414" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    <a href="https://discord.com/users/699953887905316897" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+    <a href="mailto:apurbakoirala33@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+    <a href="https://www.linkedin.com/in/apurba-koirala-850a32210/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a>
+    <a href="https://open.spotify.com/user/kuevyvjonp3ffbhx28vh9c7xr?si=b01e9f6510a84dea" target="_blank"><i class="fab fa-spotify"></i> Spotify</a>
+</div>
+
+<div id="main">
+    <div class="about-career-container"></div>
+
+
+        <div class="profile-about-container">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>Hello! I'm Apurba, a passionate technologist and creative thinker fascinated by the intersection of technology and art. With a background in computer science and a keen interest in photography, I strive to bring a unique perspective to everything I do.</p>
+                <p>From developing innovative software solutions to capturing the world through my lens, I am always on the lookout for new challenges that push the boundaries of what's possible.</p>
+            </div>
+            <div class="about-image">
+                <img src="prof.jpeg" alt="Picture of the owner of this website" height="300" width="300">
+            </div>
+        </div>
+
+        <div id="career" class="career-container">
+            <h1>Career</h1>
+            <div class="job">
+                <h3>Software Developer Intern</h3>
+                <h4>VC Pulse</h4>
+                <h4> 23 Dorchester Road Solihull, West Midlands, United Kingdom</h4>
+                <p class="time-frame">February 2024 - Present</p>
+                <ul class="responsibilities">
+                    <li>Developing front-end of the company website using next.js</li>
+                    <li>Developing backend of the website using mern stack</li>
+                    <li>Implementing payment portal for the company website using stripe</li>
+                </ul>
+                <button class="welcome" onclick="openwelcome()">Welcome Letter</button>
+            </div>
+            <div class="job">
+                <h3>Software Developer Intern</h3>
+                <h4>Synapse Technologies</h4>
+                <h4>Kathmandu, Nepal</h4>
+                <p class="time-frame">January 2024- Present</p>
+                <ul class="responsibilities">
+                    <li>Developed front-end side of the Search Engine Optimization Project of the company</li>
+                    <li>Working on an Inventory Management application using flutter.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Architecture Intern</h3>
+                <h4>Praj Designers and Planners</h4>
+                <h4>Kathmandu, Nepal</h4>
+                <p class="time-frame">December 2019 - January 2020</p>
+                <ul class="responsibilities">
+                    <li>Developed and maintained high-quality software solutions.</li>
+                    <li>Participated in the complete software development lifecycle.</li>
+                    <li>Contributed to the improvement of application performance.</li>
+                </ul>
+            </div>
+
+
+            
+        </div>
+        <h1>Education</h1><br>
+        <div id="education" class="education-container">
+            <div class="job">
+                <h3>Vellore Institute of Technology</h3>
+                <h4>B.Tech Computer Science and Engineering</h4>
+                <h4>Vellore, Tamil Nadu, India</h4>
+                <p class="time-frame">September 2022 - August 2026 (Expected)</p>
+            </div>
+
+            <div class="job">
+                <h3>Rato Bangala School</h3>
+                <h4>CIE A-levels</h4>
+                <h4>Lalitpur, Nepal</h4>
+                <p class="time-frame">June 2019 - August 2021</p>
+            </div>
+
+            <div class="job">
+                <h3>Malpi International School</h3>
+                <h4>10th Standard, Nepal Education Board</h4>
+                <h4>Panauti, Kavre, Nepal</h4>
+                <p class="time-frame">April 2015 - April 2019</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div id="projects">
+        <h1>Projects</h1><br>
+        <div class="project-container">
+            <div class="project">
+                <h2>Book Chapter</h2>
+                <h4>Federated learning for Secure Smart Cities using IoT. </h4>
+                
+                <p>Published in: BLOCKCHAIN ENABLED SECURE BIG DATA COMPUTING FOR SMART CITIES USING INTERNET OF THINGS by Nova Science Publisher</p>
+                <button id="openPdfBtn">View Bookchapter</button>
+            </div>
+            
+            <div>
+                <h2></h2>
+                
+            </div>
+            <div class="project">
+                <img src="tic.jpg" alt="Project Image" class="project-image">
+                <h2>Tic Tac Toe</h2>
+                <p>This is a simple Tic Tac Toe project built using Javascript, HTML and CSS.</p>
+                <button id = "tictac" onclick="opencode()">View Code</button>
+                <button id = "game" onclick="opengame()">Play game</button>
+            </div>
+
+            <div class="project">
+                <h2>Machine Learning Course Certification</h2>
+                <p>Completed Machine Learning A-Z from Udemy</p>
+                <button id = "course" onclick="opencourse()">View Certificate</button>
+            </div>
+            
+            <!-- Repeat for each project -->
+        </div>
+        
+    </div>
+
+    <div id="hobbies">
+        <h1>Hobbies</h1>
+        <div class="image-river-container">
+            <h4>Photography</h4>
+            <div class="image-river">
+                <img src="image1.jpg">
+                <img src="image2.jpg">
+                <img src="image3.jpg">
+                <img src="image4.jpg">
+                <img src="Image5.jpg">
+                <img src="image6.jpg">
+                <img src="image7.jpg">
+                <img src="image8.jpg">
+                <img src="image9.jpg">
+                <img src="image10.jpg">
+                <img src="image11.jpg">
+                <img src="image12.jpg">
+                <img src="image13.jpg">
+                <img src="image14.jpg">
+                <img src="image15.jpg">
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="contact">
+        <h1>Contact</h1>
+        <form id="contactForm">
+            <input type="text" id="name" name="name" placeholder="Your name" required><br>
+            <input type="email" id="email" name="email" placeholder="Your email" required><br>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formResponse"></p>
+    </div>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-d4f95085-d421-4765-beef-b943b0288ea0" data-elfsight-app-lazy></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
